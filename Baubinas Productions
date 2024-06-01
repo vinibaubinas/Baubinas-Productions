@@ -5,6 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Baubinas Productions</title>
     <style>
+        @font-face {
+            font-family: 'Avenir';
+            src: url('Avenir-Light.ttf') format('truetype');
+            font-weight: 300;
+        }
+        @font-face {
+            font-family: 'Avenir';
+            src: url('Avenir-Black.ttf') format('truetype');
+            font-weight: 900;
+        }
         body {
             font-family: 'Avenir', sans-serif;
             margin: 0;
@@ -45,6 +55,11 @@
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
+        .history img, .mission img, .values img, .vision img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
         footer {
             background-color: #203466;
             color: #FFFFFF;
@@ -71,6 +86,7 @@
 
     <section id="history" class="history">
         <h2>Nossa História</h2>
+        <img src="extracted_image_2_1.png" alt="Nossa História">
         <p>A Baubinas Productions começou de maneira simples, com uma câmera e um grande sonho. Fundada por um videomaker entusiasmado, a empresa nasceu em uma pequena sala de estar que se transformou em um estúdio improvisado. Cada projeto inicial era uma nova oportunidade de aprender e crescer.</p>
         <p>Hoje, continuamos a crescer e a evoluir, mas nunca perdemos de vista nossos valores fundamentais: criatividade, excelência e autenticidade. Cada vídeo que produzimos é uma peça de arte, cuidadosamente elaborada para contar histórias que não apenas capturam a atenção, mas também criam conexões emocionais e profundas.</p>
         <p>A Baubinas Productions é um reflexo da nossa paixão por contar histórias e do nosso compromisso em ajudar nossos clientes a transformar seguidores em clientes leais. Nossa jornada continua, um frame de cada vez, com a mesma paixão e dedicação que marcaram nosso início.</p>
@@ -78,11 +94,13 @@
 
     <section id="mission" class="mission">
         <h2>Missão</h2>
+        <img src="extracted_image_8_1.png" alt="Missão">
         <p>Na Baubinas Productions, nossa missão é transformar ideias em narrativas visuais impactantes que engajem, inspirem e convertam. Utilizamos nossa expertise em videomaking e edição de reels para Instagram para ajudar nossos clientes a captar a atenção de seus públicos-alvo, promovendo marcas, produtos e serviços de maneira autêntica e cativante.</p>
     </section>
 
     <section id="values" class="values">
         <h2>Valores</h2>
+        <img src="extracted_image_9_1.png" alt="Valores">
         <ul>
             <li><strong>Criatividade:</strong> Valorizamos a originalidade e a inovação, buscando sempre novas formas de contar histórias e engajar o público.</li>
             <li><strong>Excelência:</strong> Comprometemo-nos com a alta qualidade em cada projeto, garantindo que cada vídeo produzido exceda as expectativas dos nossos clientes.</li>
@@ -92,6 +110,7 @@
 
     <section id="vision" class="vision">
         <h2>Visão</h2>
+        <img src="extracted_image_10_1.png" alt="Visão">
         <p>Ser a referência número um em produção de conteúdo audiovisual para redes sociais, reconhecida pela excelência na criação de reels que não apenas contam histórias, mas que também criam conexões emocionais e impulsionam o crescimento dos nossos clientes. Buscamos liderar o mercado com inovação, criatividade e resultados mensuráveis.</p>
     </section>
 
